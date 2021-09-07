@@ -1,0 +1,76 @@
+body{
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.card-group{
+  margin: 8% 20%;
+}
+.card-title{
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 38px;
+  color: hsl(0, 0%, 95%);
+}
+.card-text{
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 30px;
+}
+.card-img-top{
+  width: 30%;
+  margin: 20px 20px;
+}
+.btn-sedan,.btn-suv,.btn-lux{
+  border-width: 2px;
+  margin-top: 90px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.card-sedan,.card-suv,.card-lux{
+  padding: 27px;
+  line-height: 1.75;
+}
+
+.btn-sedan:hover{
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border-color: white;
+}
+.btn-suv:hover{
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border-color: white;
+}
+.btn-lux:hover{
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border-color: white;
+}
+
+.card-sedan{
+  background-color: hsl(31, 77%, 52%);
+}
+.btn-sedan{
+  color: hsl(31, 77%, 52%);
+}
+.card-suv{
+  background-color: hsl(184, 100%, 22%);
+}
+.btn-suv{
+  color: hsl(184, 100%, 22%);
+}
+.card-lux{
+  background-color: hsl(179, 100%, 13%);
+}
+.btn-lux{
+  color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 800px) {
+  .card-group {
+    flex-direction: column;
+  }
+  .btn-sedan,.btn-suv,.btn-lux{
+    margin-top: 10px;
+  }
+}
